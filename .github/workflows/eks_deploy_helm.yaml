@@ -19,7 +19,7 @@ jobs:
         namespace: cert-manager
         create-namespace: true
         name: cert-manager
-        chart-repository: https://charts.jetstack.io
+        chart-repository: oci://quay.io/jetstack/charts/cert-manager
         version: 0.18.2
         atomic: true
         values: crds.enabled=true
