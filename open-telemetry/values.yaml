@@ -1,4 +1,0 @@
-components:
-  frontend-proxy:
-    service:
-      type: LoadBalancer

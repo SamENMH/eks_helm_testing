@@ -12,7 +12,7 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: eu-west-2
         cluster-name: test-eks-SuUeqlBQ
-        config-files: values.yaml
+        config-files: ../values.yaml
         chart-path: open-telemetry/opentelemetry-demo
         namespace: otel
         create-namespace: true
