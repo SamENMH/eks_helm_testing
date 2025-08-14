@@ -20,7 +20,7 @@ jobs:
         create-namespace: true
         name: cert-manager
         chart-repository: https://charts.jetstack.io
-        version: 0.17.2
+        version: 0.18.2
         atomic: true
         values: crds.enabled=true
 
