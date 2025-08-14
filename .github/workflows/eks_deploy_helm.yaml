@@ -1,3 +1,10 @@
+name: Deploy Helm chart to EKS cluster
+on:
+  workflow_dispatch:
+jobs:
+  deploy_helm:
+    runs-on: ubuntu-latest
+    steps:
     - name: Deploy Helm
       uses: bitovi/github-actions-deploy-eks-helm@v1.2.12
       with:
@@ -14,3 +21,4 @@
         chart-repository: https://fluent.github.io/helm-charts
         version: 0.20.6
         atomic: true
+
