@@ -30,7 +30,7 @@ jobs:
         aws-region: eu-west-2
         cluster-name: eks-test
         chart-path: coralogix/otel-integration
-        config-files: coralogfig-otel/values.yaml
+        config-files: coralogix-otel/values.yaml
         namespace: otel
         create-namespace: false
         name: otel-coralogix-integration
