@@ -21,7 +21,6 @@ jobs:
         name: cert-manager
         chart-repository: oci://quay.io/jetstack/charts/cert-manager
         version: v1.18.2
-        atomic: true
         values: crds.enabled=true
 
     # - name: Deploy opentelemetry demo
