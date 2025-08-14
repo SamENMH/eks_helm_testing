@@ -15,7 +15,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: eu-west-2
         cluster-name: test-eks-SuUeqlBQ
-        chart-path: jetstack/cert-manager
         namespace: cert-manager
         create-namespace: true
         name: cert-manager
