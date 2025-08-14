@@ -15,6 +15,6 @@ jobs:
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         aws-region: eu-west-2
         cluster-name: eks-test
-        namespace: cert-manager
-        name: cert-manager
+        namespace: otel
+        name: my-otel-demo
         action: uninstall
