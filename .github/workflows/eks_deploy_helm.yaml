@@ -13,7 +13,7 @@ jobs:
         aws-region: eu-west-2
         cluster-name: test-eks-SuUeqlBQ
         config-files: values.yaml
-        chart-path: open-telemetry
+        chart-path: open-telemetry/opentelemetry-demo
         namespace: otel
         create-namespace: true
         name: my-otel-demo
