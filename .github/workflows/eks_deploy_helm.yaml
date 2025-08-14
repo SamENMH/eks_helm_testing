@@ -22,7 +22,7 @@ jobs:
         chart-repository: https://charts.jetstack.io
         version: 0.17.2
         atomic: true
-        helm-extra-args: crds.enabled=true
+        values: crds.enabled=true
 
     # - name: Deploy opentelemetry demo
     #   uses: bitovi/github-actions-deploy-eks-helm@v1.2.12
