@@ -1,6 +1,6 @@
 global:
   domain: eu2.coralogix.com
-  clusterName: eks-test
+  clusterName: cx-eks-al2023
 opentelemetry-cluster-collector:
   presets:
     kubernetesEvents:
@@ -17,7 +17,7 @@ opentelemetry-cluster-collector:
       enabled: true
     kubernetesExtraMetrics:
       enabled: true
-      scrapeAll: false
+      scrapeAll: true
 opentelemetry-agent:
   presets:
     hostEntityEvents:
